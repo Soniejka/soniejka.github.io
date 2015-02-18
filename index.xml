@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Сонейка</title>
+    <link>http://yourSiteHere/</link>
+    <description>Recent content on Сонейка</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+    
+    
+    <lastBuildDate>Wed, 18 Feb 2015 14:20:23 MSK</lastBuildDate>
+    <atom:link href="http://yourSiteHere/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Библиотека</title>
+      <link>http://yoursitehere/group/library/</link>
+      <pubDate>Wed, 18 Feb 2015 14:20:23 MSK</pubDate>
+      
+      <guid>http://yoursitehere/group/library/</guid>
+      <description>&lt;p&gt;Здесь будут книги&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Книга всего</title>
+      <link>http://yoursitehere/post/test/</link>
+      <pubDate>Tue, 17 Feb 2015 17:58:04 MSK</pubDate>
+      
+      <guid>http://yoursitehere/post/test/</guid>
+      <description>&lt;p&gt;Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.
+Тут супер интересная книга и ссылка на нее.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>О сайте</title>
+      <link>http://yoursitehere/page/about/</link>
+      <pubDate>Tue, 17 Feb 2015 10:58:09 MSK</pubDate>
+      
+      <guid>http://yoursitehere/page/about/</guid>
+      <description>&lt;p&gt;О блоге&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Привет!</title>
+      <link>http://yoursitehere/post/hello/</link>
+      <pubDate>Tue, 17 Feb 2015 10:44:07 MSK</pubDate>
+      
+      <guid>http://yoursitehere/post/hello/</guid>
+      <description>&lt;p&gt;Добро пожаловать!&lt;/p&gt;
+
+&lt;p&gt;Блог &lt;a href=&#34;http://soniejka.com&#34;&gt;Сонейка&lt;/a&gt; только что переехал из социальной сети &lt;a href=&#34;https://tumblr.com&#34;&gt;Tumblr&lt;/a&gt; на свою собственную уютную
+платформу. Краткие новости о всяких интересностях по-прежденему будут появляться в нашей &lt;a href=&#34;https://vk.com/soniejka&#34;&gt;группе ВКонтакте&lt;/a&gt;. Здесь же я буду публиковать свои статьи, а так же собирать библиотеку интересных текстов.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

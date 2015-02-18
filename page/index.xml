@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Сонейка</title>
+    <link>http://yourSiteHere/page/</link>
+    <description>Recent content in Pages on Сонейка</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+    
+    
+    <lastBuildDate>Tue, 17 Feb 2015 10:58:09 MSK</lastBuildDate>
+    <atom:link href="http://yourSiteHere/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>О сайте</title>
+      <link>http://yoursitehere/page/about/</link>
+      <pubDate>Tue, 17 Feb 2015 10:58:09 MSK</pubDate>
+      
+      <guid>http://yoursitehere/page/about/</guid>
+      <description>&lt;p&gt;О блоге&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

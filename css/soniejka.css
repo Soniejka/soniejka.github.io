@@ -1,0 +1,75 @@
+body {
+    background: url("/images/bg.png") repeat 0 0;
+    background-color: #DFDFDF;
+}
+
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    content: url("/images/logo.jpg");
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.logo-link {
+    text-align: center;
+}
+.logo-link:hover {
+    text-decoration: none;
+}
+
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 2.75rem;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 10px #555555;
+    transform: scale(1.01,1.01);
+    -webkit-transform: scale(1.01,1.01);
+    -ms-transform: scale(1.01,1.01);
+
+}
+
+.content {
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 72rem) {
+  .content {
+      background-color: #fff;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    max-width: 44rem;
+    margin-left: 28rem;
+    margin-right: 6rem;
+  }
+}
+
+@media (min-width: 94rem) {
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.lead {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.social {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.social span {
+    color: #ac4142;
+}
