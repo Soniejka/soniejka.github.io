@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Library on Сонейка</title>
-    <link>http://yourSiteHere/categories/library/</link>
+    <link>http://soniejka.github.io/categories/library/</link>
     <description>Recent content in Library on Сонейка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
@@ -10,14 +10,14 @@
     
     
     <lastBuildDate>Tue, 17 Feb 2015 17:58:04 MSK</lastBuildDate>
-    <atom:link href="http://yourSiteHere/categories/library/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://soniejka.github.io/categories/library/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Книга всего</title>
-      <link>http://yoursitehere/post/test/</link>
+      <link>http://soniejka.github.io/post/test/</link>
       <pubDate>Tue, 17 Feb 2015 17:58:04 MSK</pubDate>
       
-      <guid>http://yoursitehere/post/test/</guid>
+      <guid>http://soniejka.github.io/post/test/</guid>
       <description>&lt;p&gt;Тут супер интересная книга и ссылка на нее.
 Тут супер интересная книга и ссылка на нее.
 Тут супер интересная книга и ссылка на нее.

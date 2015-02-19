@@ -2,22 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Groups on Сонейка</title>
-    <link>http://yourSiteHere/group/</link>
+    <link>http://soniejka.github.io/group/</link>
     <description>Recent content in Groups on Сонейка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     
     
     
-    <lastBuildDate>Wed, 18 Feb 2015 14:20:23 MSK</lastBuildDate>
-    <atom:link href="http://yourSiteHere/group/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Feb 2015 11:13:09 MSK</lastBuildDate>
+    <atom:link href="http://soniejka.github.io/group/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Статьи</title>
+      <link>http://soniejka.github.io/group/articles/</link>
+      <pubDate>Thu, 19 Feb 2015 11:13:09 MSK</pubDate>
+      
+      <guid>http://soniejka.github.io/group/articles/</guid>
+      <description>&lt;p&gt;Мои статьи&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Библиотека</title>
-      <link>http://yoursitehere/group/library/</link>
+      <link>http://soniejka.github.io/group/library/</link>
       <pubDate>Wed, 18 Feb 2015 14:20:23 MSK</pubDate>
       
-      <guid>http://yoursitehere/group/library/</guid>
+      <guid>http://soniejka.github.io/group/library/</guid>
       <description>&lt;p&gt;Здесь будут книги&lt;/p&gt;
 </description>
     </item>

@@ -22,10 +22,11 @@
   <link rel="shortcut icon" href="/favicon.ico">
 
   
-  <link href="http://yourSiteHere/index.xml" rel="alternate" type="application/rss+xml" title="Сонейка" />
+  <link href="http://soniejka.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Сонейка" />
+
 </head>
 
-<body class="theme-base-08">
+<body class="theme-soniejka">
 
 <div class="sidebar">
     
@@ -40,11 +41,13 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Блог</a> </li>
+      <li><a class="sidebar-nav-item" href="/post/">Блог</a> </li>
       
-        <li><a href="http://yoursitehere/group/library/"> Библиотека </a></li>
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/articles/"> Статьи </a></li>
       
-        <li><a href="http://yoursitehere/page/about/"> О сайте </a></li>
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/library/"> Библиотека </a></li>
+      
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/page/about/"> О сайте </a></li>
       
     </ul>
 
@@ -82,19 +85,19 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 
 
 
-    <div class="content container">
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+<div class="content container">
 
 <div class="posts">
 
       
   <div class="post">
     <h1 class="post-title">
-      <a href="http://yoursitehere/post/test/">
+      <a href="/post/test/">
         Книга всего
       </a>
     </h1>
-    <span class="post-date">17.02.2015</span>
+    <span class="post-date moment">2015-02-17 17:58:04</span>
+
 
     <p>Тут супер интересная книга и ссылка на нее.
 Тут супер интересная книга и ссылка на нее.
@@ -111,16 +114,17 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 Тут супер интересная книга и ссылка на нее.</p>
 
 
-    <a href="http://yoursitehere/post/test/#disqus_thread">Комментировать</a>
+    <a href="/post/test/#disqus_thread">Комментировать</a>
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="http://yoursitehere/post/hello/">
+      <a href="/post/hello/">
         Привет!
       </a>
     </h1>
-    <span class="post-date">17.02.2015</span>
+    <span class="post-date moment">2015-02-17 10:44:07</span>
+
 
     <p>Добро пожаловать!</p>
 
@@ -128,10 +132,13 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 платформу. Краткие новости о всяких интересностях по-прежденему будут появляться в нашей <a href="https://vk.com/soniejka">группе ВКонтакте</a>. Здесь же я буду публиковать свои статьи, а так же собирать библиотеку интересных текстов.</p>
 
 
-    <a href="http://yoursitehere/post/hello/#disqus_thread">Комментировать</a>
+    <a href="/post/hello/#disqus_thread">Комментировать</a>
   </div>
   
 </div>
+
+<footer class="posts-all-link"><a href="/post/">Все посты →</a></footer>
+
 </div>
 
 
@@ -146,6 +153,16 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
+</script>
+
+
+<script src="/js/moment-with-locales.min.js"></script>
+<script>
+    var dates = document.getElementsByClassName("moment");
+    var i = dates.length;
+    while(i--) {
+        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("LLL");
+    }
 </script>
 
 

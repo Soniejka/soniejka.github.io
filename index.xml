@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Сонейка</title>
-    <link>http://yourSiteHere/</link>
+    <link>http://soniejka.github.io/</link>
     <description>Recent content on Сонейка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     
     
     
-    <lastBuildDate>Wed, 18 Feb 2015 14:20:23 MSK</lastBuildDate>
-    <atom:link href="http://yourSiteHere/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Feb 2015 11:13:09 MSK</lastBuildDate>
+    <atom:link href="http://soniejka.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Библиотека</title>
-      <link>http://yoursitehere/group/library/</link>
-      <pubDate>Wed, 18 Feb 2015 14:20:23 MSK</pubDate>
+      <title>Статьи</title>
+      <link>http://soniejka.github.io/group/articles/</link>
+      <pubDate>Thu, 19 Feb 2015 11:13:09 MSK</pubDate>
       
-      <guid>http://yoursitehere/group/library/</guid>
-      <description>&lt;p&gt;Здесь будут книги&lt;/p&gt;
+      <guid>http://soniejka.github.io/group/articles/</guid>
+      <description>&lt;p&gt;Мои статьи&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Книга всего</title>
-      <link>http://yoursitehere/post/test/</link>
+      <link>http://soniejka.github.io/post/test/</link>
       <pubDate>Tue, 17 Feb 2015 17:58:04 MSK</pubDate>
       
-      <guid>http://yoursitehere/post/test/</guid>
+      <guid>http://soniejka.github.io/post/test/</guid>
       <description>&lt;p&gt;Тут супер интересная книга и ссылка на нее.
 Тут супер интересная книга и ссылка на нее.
 Тут супер интересная книга и ссылка на нее.
@@ -45,25 +45,35 @@
     </item>
     
     <item>
-      <title>О сайте</title>
-      <link>http://yoursitehere/page/about/</link>
-      <pubDate>Tue, 17 Feb 2015 10:58:09 MSK</pubDate>
-      
-      <guid>http://yoursitehere/page/about/</guid>
-      <description>&lt;p&gt;О блоге&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Привет!</title>
-      <link>http://yoursitehere/post/hello/</link>
+      <link>http://soniejka.github.io/post/hello/</link>
       <pubDate>Tue, 17 Feb 2015 10:44:07 MSK</pubDate>
       
-      <guid>http://yoursitehere/post/hello/</guid>
+      <guid>http://soniejka.github.io/post/hello/</guid>
       <description>&lt;p&gt;Добро пожаловать!&lt;/p&gt;
 
 &lt;p&gt;Блог &lt;a href=&#34;http://soniejka.com&#34;&gt;Сонейка&lt;/a&gt; только что переехал из социальной сети &lt;a href=&#34;https://tumblr.com&#34;&gt;Tumblr&lt;/a&gt; на свою собственную уютную
 платформу. Краткие новости о всяких интересностях по-прежденему будут появляться в нашей &lt;a href=&#34;https://vk.com/soniejka&#34;&gt;группе ВКонтакте&lt;/a&gt;. Здесь же я буду публиковать свои статьи, а так же собирать библиотеку интересных текстов.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Библиотека</title>
+      <link>http://soniejka.github.io/group/library/</link>
+      <pubDate>Wed, 18 Feb 2015 14:20:23 MSK</pubDate>
+      
+      <guid>http://soniejka.github.io/group/library/</guid>
+      <description>&lt;p&gt;Здесь будут книги&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>О сайте</title>
+      <link>http://soniejka.github.io/page/about/</link>
+      <pubDate>Tue, 17 Feb 2015 10:58:09 MSK</pubDate>
+      
+      <guid>http://soniejka.github.io/page/about/</guid>
+      <description>&lt;p&gt;О блоге&lt;/p&gt;
 </description>
     </item>
     

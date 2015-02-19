@@ -22,10 +22,11 @@
   <link rel="shortcut icon" href="/favicon.ico">
 
   
-  <link href="http://yourSiteHere/group/index.xml" rel="alternate" type="application/rss+xml" title="Сонейка" />
+  <link href="http://soniejka.github.io/group/index.xml" rel="alternate" type="application/rss+xml" title="Сонейка" />
+
 </head>
 
-<body class="theme-base-08">
+<body class="theme-soniejka">
 
 <div class="sidebar">
     
@@ -40,11 +41,13 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Блог</a> </li>
+      <li><a class="sidebar-nav-item" href="/post/">Блог</a> </li>
       
-        <li><a href="http://yoursitehere/group/library/"> Библиотека </a></li>
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/articles/"> Статьи </a></li>
       
-        <li><a href="http://yoursitehere/page/about/"> О сайте </a></li>
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/library/"> Библиотека </a></li>
+      
+        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/page/about/"> О сайте </a></li>
       
     </ul>
 
@@ -86,10 +89,24 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     <ul class="posts">
         
         <li>
-          <span><a href="http://yoursitehere/group/library/">Библиотека</a> <time class="pull-right post-list">Wed, Feb 18, 2015</time></span>
+          <span><a href="/group/articles/">Статьи</a> <time class="right moment">2015-02-19 11:13:09</time></span>
+        </li>
+        
+        <li>
+          <span><a href="/group/library/">Библиотека</a> <time class="right moment">2015-02-18 14:20:23</time></span>
         </li>
         
     </ul>
   </div>
+
+  <script src="/js/moment-with-locales.min.js"></script>
+<script>
+    var dates = document.getElementsByClassName("moment");
+    var i = dates.length;
+    while(i--) {
+        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("LLL");
+    }
+</script>
+
 </body>
 </html>

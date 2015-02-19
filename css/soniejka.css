@@ -3,6 +3,14 @@ body {
     background-color: #DFDFDF;
 }
 
+.theme-soniejka .sidebar {
+  background-color: #C75154;
+
+}
+.theme-soniejka .content a,
+.theme-soniejka .related-posts li a:hover {
+  color: #DA332B;
+}
 
 .logo {
     display: block;
@@ -39,14 +47,11 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
+    padding-top: 1rem;
 }
 
-@media (min-width: 72rem) {
+/*@media (min-width: 72rem) {
   .content {
-      background-color: #fff;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 10px;
     max-width: 44rem;
     margin-left: 28rem;
     margin-right: 6rem;
@@ -58,7 +63,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-}
+}*/
 
 .lead {
   font-size: 0.8rem;
@@ -71,5 +76,14 @@ body {
     border-radius: 5px;
 }
 .social span {
-    color: #ac4142;
+    color: #DA332B;
+}
+
+.right {
+    float: right;
+}
+
+.posts-all-link {
+    text-align: right;
+    font-size: 1.2rem;
 }
