@@ -139,13 +139,19 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 
 
   <div class="content container">
-    <ul class="posts">
+      <h1>Pages</h1>
+    <div class="posts">
         
-        <li>
-          <span><a href="/page/about/">О сайте</a> <time class="right moment">2015-02-17 10:58:09</time></span>
-        </li>
         
-    </ul>
+        <p class="post-in-list">
+          <span class="post-title post-list-title"><a href="/page/about/">О сайте</a> </span>
+          <span class="right moment">2015-02-17 10:58:09</span>
+          <br/>
+          <span class="post-description"></span>
+        </p>
+
+        
+    </div>
   </div>
 
   <script src="/js/moment-with-locales.min.js"></script>
@@ -153,7 +159,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     var dates = document.getElementsByClassName("moment");
     var i = dates.length;
     while(i--) {
-        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("LLL");
+        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("ll");
     }
 </script>
 

@@ -139,17 +139,28 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 
 
   <div class="content container">
-    <ul class="posts">
+      <h1>Groups</h1>
+    <div class="posts">
         
-        <li>
-          <span><a href="/group/articles/">Статьи</a> <time class="right moment">2015-02-19 11:13:09</time></span>
-        </li>
         
-        <li>
-          <span><a href="/group/library/">Библиотека</a> <time class="right moment">2015-02-18 14:20:23</time></span>
-        </li>
+        <p class="post-in-list">
+          <span class="post-title post-list-title"><a href="/group/articles/">Статьи</a> </span>
+          <span class="right moment">2015-02-19 11:13:09</span>
+          <br/>
+          <span class="post-description"></span>
+        </p>
+
         
-    </ul>
+        
+        <p class="post-in-list">
+          <span class="post-title post-list-title"><a href="/group/library/">Библиотека</a> </span>
+          <span class="right moment">2015-02-18 14:20:23</span>
+          <br/>
+          <span class="post-description"></span>
+        </p>
+
+        
+    </div>
   </div>
 
   <script src="/js/moment-with-locales.min.js"></script>
@@ -157,7 +168,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     var dates = document.getElementsByClassName("moment");
     var i = dates.length;
     while(i--) {
-        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("LLL");
+        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("ll");
     }
 </script>
 
