@@ -2,33 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Groups on Сонейка</title>
-    <link>http://soniejka.github.io/group/</link>
+    <link>http://soniejka.com/group/</link>
     <description>Recent content in Groups on Сонейка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     
     
     
-    <lastBuildDate>Thu, 19 Feb 2015 11:13:09 MSK</lastBuildDate>
-    <atom:link href="http://soniejka.github.io/group/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Feb 2015 21:14:40 MSK</lastBuildDate>
+    <atom:link href="http://soniejka.com/group/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Блог</title>
+      <link>http://soniejka.com/group/blog/</link>
+      <pubDate>Sat, 21 Feb 2015 21:14:40 MSK</pubDate>
+      
+      <guid>http://soniejka.com/group/blog/</guid>
+      <description>&lt;p&gt;Все записи блога&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Статьи</title>
-      <link>http://soniejka.github.io/group/articles/</link>
+      <link>http://soniejka.com/group/articles/</link>
       <pubDate>Thu, 19 Feb 2015 11:13:09 MSK</pubDate>
       
-      <guid>http://soniejka.github.io/group/articles/</guid>
-      <description>&lt;p&gt;Мои статьи&lt;/p&gt;
+      <guid>http://soniejka.com/group/articles/</guid>
+      <description>&lt;p&gt;Статьи и другие материалы моего авторства&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Библиотека</title>
-      <link>http://soniejka.github.io/group/library/</link>
+      <link>http://soniejka.com/group/library/</link>
       <pubDate>Wed, 18 Feb 2015 14:20:23 MSK</pubDate>
       
-      <guid>http://soniejka.github.io/group/library/</guid>
-      <description>&lt;p&gt;Здесь будут книги&lt;/p&gt;
+      <guid>http://soniejka.com/group/library/</guid>
+      <description>&lt;p&gt;Собрание книг и документов&lt;/p&gt;
 </description>
     </item>
     

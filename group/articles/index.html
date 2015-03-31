@@ -55,13 +55,10 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a class="sidebar-nav-item" href="/post/">Блог</a> </li>
-      
-        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/articles/"> Статьи </a></li>
-      
-        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/group/library/"> Библиотека </a></li>
-      
-        <li><a class="sidebar-nav-item" href="http://soniejka.github.io/page/about/"> О сайте </a></li>
+      <li><a class="sidebar-nav-item" href="/group/blog">Блог</a> </li>
+      <li><a class="sidebar-nav-item" href="/group/library">Библиотека</a> </li>
+      <li><a class="sidebar-nav-item" href="/group/articles">Статьи</a> </li>
+      <li><a class="sidebar-nav-item" href="/page/about">О сайте</a> </li>
       
     </ul>
 
@@ -86,7 +83,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 
   <span class="sharing-title">Поделиться</span></br>
   
-  <a href="https://vk.com/share.php?url=http%3a%2f%2fsoniejka.github.io%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
+  <a href="https://vk.com/share.php?url=http%3a%2f%2fsoniejka.com%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
     <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
@@ -94,7 +91,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     </span>
   </a>
   
-  <a href="https://plus.google.com/share?url=http%3a%2f%2fsoniejka.github.io%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
+  <a href="https://plus.google.com/share?url=http%3a%2f%2fsoniejka.com%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
     <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
@@ -102,7 +99,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     </span>
   </a>
   
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fsoniejka.github.io%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fsoniejka.com%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
     <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
@@ -110,7 +107,7 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     </span>
   </a>
   
-  <a href="https://twitter.com/share?url=http%3a%2f%2fsoniejka.github.io%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
+  <a href="https://twitter.com/share?url=http%3a%2f%2fsoniejka.com%2fgroup%2farticles%2f" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
     <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
@@ -141,11 +138,51 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
     <div class="content container">
 <div class="post">
   <h1 class="post-title">Статьи</h1>
-      <p>Мои статьи</p>
+      <p>Статьи и другие материалы моего авторства</p>
 
 
 
     <ul class="posts">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li>
+        <span><span class="right moment gray">   2015-02-22 14:48:37</span><a href="/post/schet/">Кириллическая система счисления</a> &#8211; Обозначение чисел буквами</span>
+      </li>
+
+      
+      
+      
+
+      <li>
+        <span><span class="right moment gray">   2015-02-22 14:34:13</span><a href="/post/azbuka/">Старославянская азбука</a> &#8211; 46 букв кириллицы</span>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li>
+        <span><span class="right moment gray">   2015-02-21 21:55:13</span><a href="/post/bukvitca/">Древлесловенская буквица</a> &#8211; Ложь о славянской азбуке</span>
+      </li>
+
+      
+      
       
       
       
@@ -163,6 +200,14 @@ VK.Widgets.Subscribe("vk_subscribe", {mode: 1}, -82328329);
 </div>
 </div>
 
+<script src="/js/moment-with-locales.min.js"></script>
+<script>
+    var dates = document.getElementsByClassName("moment");
+    var i = dates.length;
+    while(i--) {
+        dates[i].innerHTML = moment(dates[i].innerHTML, "YYYY-MM-DD HH:mm:ss", "ru").format("ll");
+    }
+</script>
 
 <div class="content container">
     <div id="disqus_thread"></div>

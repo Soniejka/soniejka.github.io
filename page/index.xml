@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Сонейка</title>
-    <link>http://soniejka.github.io/page/</link>
+    <link>http://soniejka.com/page/</link>
     <description>Recent content in Pages on Сонейка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
@@ -10,15 +10,23 @@
     
     
     <lastBuildDate>Tue, 17 Feb 2015 10:58:09 MSK</lastBuildDate>
-    <atom:link href="http://soniejka.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://soniejka.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>О сайте</title>
-      <link>http://soniejka.github.io/page/about/</link>
+      <link>http://soniejka.com/page/about/</link>
       <pubDate>Tue, 17 Feb 2015 10:58:09 MSK</pubDate>
       
-      <guid>http://soniejka.github.io/page/about/</guid>
-      <description>&lt;p&gt;О блоге&lt;/p&gt;
+      <guid>http://soniejka.com/page/about/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Сонейка&lt;/em&gt; означает &lt;em&gt;солнышко&lt;/em&gt; по-белорусски. Солнце - символ света, жизни и добра.&lt;/p&gt;
+
+&lt;p&gt;Наука, история, творчество, лингвистика, технологии, искусство, спорт и многое другое.
+Блог для людей с широким кругозором.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://soniejka.com/images/logo_512.png&#34; alt=&#34;Soniejka logo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Если вы хотите сообщить мне о чем-то интересном или нашли ошибку (орфографическу, логическую или даже историческую) &amp;ndash; пишите мне &lt;a href=&#34;https://vk.com/soniejka&#34;&gt;ВКонтакте&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
